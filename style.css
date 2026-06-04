@@ -1,0 +1,29 @@
+
+body{
+margin:0;background:linear-gradient(180deg,#050505,#101010);
+color:#e5e5e5;font-family:Poppins,sans-serif;text-align:center;overflow-x:hidden}
+#intro{position:fixed;inset:0;background:#000;display:flex;align-items:center;justify-content:center;z-index:100}
+.glass{padding:40px;border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(10px)}
+h1,h2{font-family:Cinzel,serif}
+#openBtn,.btn{
+padding:14px 28px;border:1px solid silver;background:transparent;color:silver;
+border-radius:40px;text-decoration:none;cursor:pointer}
+.hero{padding:80px 20px}
+.photo{
+width:280px;max-width:80%;border-radius:25px;
+box-shadow:0 0 35px rgba(255,255,255,.35)}
+.card{
+width:min(90%,800px);margin:30px auto;padding:25px;
+border:1px solid rgba(255,255,255,.15);
+background:rgba(255,255,255,.03);
+backdrop-filter:blur(6px);
+border-radius:24px}
+#countdown{
+font-size:2rem;font-weight:bold;color:silver}
+footer{padding:50px;font-size:1.2rem;font-style:italic}
+.particles:before,.particles:after{
+content:'';position:fixed;inset:0;
+background-image:radial-gradient(white 1px,transparent 1px);
+background-size:50px 50px;opacity:.15;pointer-events:none;
+animation:float 20s linear infinite}
+@keyframes float{from{transform:translateY(0)}to{transform:translateY(50px)}}
